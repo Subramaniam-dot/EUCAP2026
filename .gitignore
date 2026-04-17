@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.quarto/
+media/
+*.epub
+*.pdf
+.ipynb_checkpoints/
+node_modules/
+.env

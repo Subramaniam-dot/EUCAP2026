@@ -1,0 +1,119 @@
+/* Hide default footer/header elements */
+.reveal .slide-footer,
+.reveal .footer,
+.reveal-header,
+.reveal .slide-number {
+  bottom: 60px !important;
+  right: 15px !important;
+  font-size: 14px !important;
+  color: #555 !important;
+  z-index: 9998 !important;
+}
+
+/* Banner footer - original image, full width */
+#banner-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 55px;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+#banner-footer img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  display: block;
+}
+
+/* Better spacing for academic slides */
+.reveal .slides section {
+  padding-bottom: 60px !important;
+  padding-top: 20px !important;
+}
+
+/* Slide title (h2) — separator line */
+.reveal .slides section > h2:first-child {
+  padding-top: 10px !important;
+  border-bottom: 2px solid #2a76a3;
+  padding-bottom: 8px !important;
+  margin-bottom: 0.4em !important;
+}
+
+.reveal .slides section > ul,
+.reveal .slides section > ol {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+.reveal .slides section li {
+  margin-bottom: 0.15em;
+  line-height: 1.4;
+}
+
+/* Tighter heading spacing */
+.reveal h2 {
+  margin-bottom: 0.3em !important;
+}
+
+.reveal h3 {
+  margin-bottom: 0.2em !important;
+  margin-top: 0.3em !important;
+}
+
+/* Callout boxes - more compact */
+.reveal .callout {
+  margin-top: 0.4em !important;
+  margin-bottom: 0.4em !important;
+  padding: 0.4em 0.6em !important;
+  font-size: 0.85em;
+}
+
+/* Tables - tighter */
+.reveal table {
+  font-size: 0.75em;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+/* Columns - slight gap */
+.reveal .columns {
+  gap: 1.5em;
+}
+
+/* Figure captions */
+.reveal figcaption {
+  font-size: 0.55em !important;
+  margin-top: 0.2em;
+  color: #666;
+}
+
+/* Title slide - vertically centered */
+#title-slide {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+#title-slide h3 {
+  font-size: 1.4em !important;
+  line-height: 1.3 !important;
+  margin-bottom: 0.5em !important;
+}
+
+/* Definition lists */
+.reveal dt {
+  font-weight: bold;
+  margin-top: 0.3em;
+}
+
+.reveal dd {
+  margin-left: 1em;
+  margin-bottom: 0.2em;
+  font-size: 0.9em;
+  color: #555;
+}
